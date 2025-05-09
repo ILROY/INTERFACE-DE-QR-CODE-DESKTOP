@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 2350px;
+    height: 1400px;
+    background-color: hsl(212, 45%, 89%);
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    margin-top: 100px;
+    margin-left: -7px;
+    width: 900px;
+    height: 1000px;
+    background-color: white;
+    float: left;
+    border-top-right-radius: 70px;
+}
+
+.logo {
+    width: 144px;
+    height: 144px;
+    border: 1px solid black;
+    position: absolute;
+    top: -70px;
+    left: 30%;
+    transform: translateX(-50%); 
+    border-radius: 50%;
+    background-color: white;
+}
+
+.path{
+    position: absolute;
+    top: 40px;
+    left: 32px;
+}
+
+.case{
+    line-height: 1.3;
+    font-family: sans-serif;
+    position: absolute;
+    top: 100px;
+    left: 20%;
+    width: 550px;
+    height: 226px;
+    overflow: hidden;
+}
+
+.content h1{
+    font-size: 40px;
+    color: rgb(43, 77, 150);
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.content a{
+    color: black;
+    font-weight: bold;
+}
+
+.screen{
+    position: absolute;
+    top: 310px;
+    left: 20%;
+    border: 1px solid black;
+    width: 520px;
+    height: 500px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
+    background-color: black;
+    
+}
+.tablet{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    width: 485px;
+    height: 400px;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.QR{
+    width: 190px;
+    height: 290px;
+    position: absolute;
+    top: 50px;
+    left: 160px;
+    background-color: white;
+    border-radius: 10px
+}
+
+.code img{
+    position: absolute;
+    width: 175px;
+    top: 4px;
+    left: 7px;
+    border-radius: 5px;
+}
+
+.text{
+    text-align: center;
+    position: absolute;
+    top: 170px;
+}
+
+.text h2{
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    margin-left: 2px;
+}
+.text p{
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-left: 2px;
+}
+
+.general1{
+    font-family: sans-serif;
+    width: 450px;
+    height: 430px;
+    position: absolute;
+    top: 200px;
+    left: 1050px;
+}
+
+.elt1 img{
+    position: absolute;
+    top: 50px;
+    left: 2px;
+    float: left;
+}
+
+.elt2{
+    text-align: justify;
+    position: absolute;
+    top: -20px;
+    left: 25%;
+}
+
+.elt2 h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.general2{
+    font-family: sans-serif;
+    width: 450px;
+    height: 430px;
+    position: absolute;
+    top: 410px;
+    left: 1050px;
+}
+
+.elt3 img{
+    position: absolute;
+    top: 50px;
+    left: 2px;
+    float: left;
+}
+
+.elt4{
+    text-align: justify;
+    position: absolute;
+    top: -20px;
+    left: 25%;
+}
+
+.elt4 h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.elt2 p {
+    line-height: 1.5;
+}
+
+.elt4 p {
+    line-height: 1.5;
+}
+
+span{
+    text-decoration: underline;
+}
